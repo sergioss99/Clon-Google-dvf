@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 25px;
+    margin: 0px;
+}
+   
+header {
+    display:flex;
+    justify-content: right;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.google {
+    width: 330px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+li {
+    color:gray;
+    list-style:none;
+    display: flex;
+    display: inline;
+    margin-left: 25px;
+}
+hr {
+    margin-top: 150px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+}
+.li2 {
+    list-style: none;
+    display: flex;
+    display: inline;
+    float:right;
+    color:gray;
+    
+}
+.Headerlink {
+    margin: 10px;
+    padding: 5px;
+    color:black;
+}
+.second {
+    display: flex;
+    justify-content: center;
+}
+.display, button{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 0px;
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.navbar {
+    margin: 30px;
+    margin-top: 20px;
+}
+input {
+    margin-top: none;
+    border-radius: 15px;
+    width: 500px;
+    height: 35px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    box-shadow: 5px;
+}
+svg {
+    width: 25px;
+}
+      
